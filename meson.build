@@ -13,6 +13,6 @@ subdir('test')
 pkg_mod = import('pkgconfig')
 pkg_mod.generate(libraries : mesonunitlib,
                  version : '1.0',
-                 name : 'libmesonunit',
+                 name : 'mesonunit',
                  filebase : 'mesonunit',
                  description : 'A very testy library')
